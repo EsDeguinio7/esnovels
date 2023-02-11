@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: white;
+    margin:0;
+    padding:0;
+    font-family: "Courier New", monospace;
+    box-sizing:border-box;
+}
+header{
+    width: 100%;
+    height:55px;
+    background: #000000;
+}
+h3{
+    color:white;
+    padding: 18px 0 0 200px;
+}
+#check{
+    display:none;
+}
+.menu{
+    display:none;
+    padding-left:15px;
+    width: 100%;
+    height: auto;
+    background: #0d0d0d;
+}
+.menu ul{
+    list-style:none;
+}
+.menu ul li{
+    color:white;
+    line-height: 28px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:white;
+}
+.menu ul li:hover{
+    background-color: #0d0d0d;
+    border-radius:3px;
+}
+label #btn{
+    margin:18px 0 0 15px;
+    float:left;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+}
+#check:checked ~ .menu{
+    display:block;
+}
+.New{
+    font-weight:bold;
+    height: 50px;
+    width: 110px;
+    margin:30px 0 0 15px;
+}
+.New-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-direction:column;
+    background: #f2f2f2;
+}
+.New1{
+    height: 200px;
+    width: 330px;
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #000000;
+    padding: 5px 0 0 10px;
+    overflow:hidden;
+}
+.New-image{
+    display:inline-block;
+    width: 150px;
+    height: 190px;
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+}
+.New1 h4{
+    display:inline-block;
+    float:right;
+    margin-right:0px;
+    margin-top:10px;
+    width: 150px;
+}
+.New1 h5{
+    display:inline-block;
+    float:right;
+    margin-top:-130px;
+    width: 150px;
+}
+#new{
+    margin-top:-150px;
+}
+#new2{
+    margin-top: ;
+}
+#new3{
+    margin-top:-100px;
+}
+.favourite {
+    font-weight:bold;
+    height: 50px;
+    width: 130px;
+    margin:50px 0 0 15px;
+}
+.favourite-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-direction:column;
+    background: #f2f2f2;
+}
+.favourite1{
+    height: 200px;
+    width: 330px;
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #000000;
+    padding: 5px 0 0 10px;
+    overflow:hidden;
+}
+.favourite-image{
+    display:inline-block;
+    width: 150px;
+    height: 190px;
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+}
+.favourite1 h4{
+    display:inline-block;
+    float:right;
+    margin-right:0px;
+    margin-top:10px;
+    width: 150px;
+}
+.favourite1 h5{
+    display:inline-block;
+    float:right;
+    margin-top:-130px;
+    width: 150px;
+}
+#fav1{
+    margin-top:-100px;
+}
+#fav3{
+    margin-top:-120px;
+}
+.recommend {
+    font-weight:bold;
+    height: 50px;
+    width: 90px;
+    margin:50px 0 0 15px;
+}
+.recommend-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-direction:column;
+    margin-bottom:50px;
+    background: #f2f2f2;
+}
+.recommend1{
+    height: 200px;
+    width: 330px;
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #000000;
+    padding: 5px 0 0 10px;
+    overflow:hidden;
+}
+.recommend-image{
+    display:inline-block;
+    width: 150px;
+    height: 190px;
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+}
+.recommend1 h4{
+    display:inline-block;
+    float:right;
+    margin-right:0px;
+    margin-top:10px;
+    width: 150px;
+}
+.recommend1 h5{
+    display:inline-block;
+    float:right;
+    margin-top:-130px;
+    width: 150px;
+}
+#rec1{
+    margin-top:-100px;
+}
+#rec2{
+    margin-top:-90px;
+}
+#rec3{
+    margin-top:-90px
+}
+#rec4{
+    margin-top:-80px;
+}
+#rec5{
+    margin-top:-100px;
+}
+/* Light Novels */
+.ln{
+    width: 132px;
+    height: auto;
+    font-size:18px;
+    margin: 30px auto 30px auto;
+    border-bottom:2px solid #0d0d0d;
+}
+.ln-content{
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #0d0d0d;
+    overflow:hidden;
+    width: 322px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 0 0 25px;
+    margin-bottom:50px;
+    font-weight:bold;
+    background: #f2f2f2;
+}
+.ln-content ul li{
+    margin-bottom:15px;
+}
+.ln-content ul li a{
+    text-decoration:none;
+    color:black;
+}
+/* Web Novels */
+.wn{
+    width: 110px;
+    height: auto;
+    font-size:18px;
+    margin: 30px auto 30px auto;
+    border-bottom:2px solid #0d0d0d;
+}
+.wn-content{
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #0d0d0d;
+    overflow:hidden;
+    width: 322px;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 0 0 25px;
+    margin-bottom:50px;
+    font-weight:bold;
+    background: #f2f2f2;
+}
+.wn-content ul li{
+    margin-bottom:15px;
+}
+.wn-content ul li a{
+    text-decoration:none;
+    color:black;
+}
+/* Korean Novels */
+.kn{
+    width: 142px;
+    height: auto;
+    font-size:18px;
+    margin: 30px auto 30px auto;
+    border-bottom:2px solid #0d0d0d;
+}
+.kn-content{
+    border: 1px solid #0d0d0d;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #0d0d0d;
+    overflow:hidden;
+    width: 322px;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 0 0 25px;
+    margin-bottom:50px;
+    font-weight:bold;
+    background: #f2f2f2;
+}
+.kn-content ul li{
+    margin-bottom:15px;
+}
+.kn-content ul li a{
+    text-decoration:none;
+    color:black;
+}

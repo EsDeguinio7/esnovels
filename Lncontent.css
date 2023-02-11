@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: white;
+    margin:0;
+    padding:0;
+    font-family: "Courier New", monospace;
+    box-sizing:border-box;
+}
+header{
+    width: 100%;
+    height:55px;
+    background: #000000;
+}
+h3{
+    color:white;
+    padding: 18px 0 0 200px;
+}
+#check{
+    display:none;
+}
+.menu{
+    display:none;
+    padding-left:15px;
+    width: 100%;
+    height: auto;
+    background: #0d0d0d;
+}
+.menu ul{
+    list-style:none;
+}
+.menu ul li{
+    color:white;
+    line-height: 28px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:white;
+}
+.menu ul li:hover{
+    background-color: #0d0d0d;
+    border-radius:3px;
+}
+label #btn{
+    margin:18px 0 0 15px;
+    float:left;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+}
+#check:checked ~ .menu{
+    display:block;
+}
+.content{
+    border-radius:3px;
+    box-shadow: 0px 0px 8px #0d0d0d;
+    overflow:hidden;
+    width: 350px;
+    height: auto;
+    font-weight:bold;
+    margin: 20px auto 10px auto;
+    padding: 10px 0px 10px 0px;
+    background: #f2f2f2;
+    border: 1px solid #0d0d0d;
+} 
+h4{
+    display:block;
+    text-align:center;
+    margin: 0 0 10px 0;
+    font-size:18px;
+    width: 132px;
+    height: auto;
+    font-size:18px;
+    margin: 10px auto 20px auto;
+    border-bottom:2px solid #0d0d0d;
+}
+.image-content{
+    display:block;
+    height: 360px;
+    width: 300px;
+    margin: 0 auto 0 auto;
+    border-radius:3px;
+    border: 1px solid #0d0d0d;
+    box-shadow: 0px 0px 8px #0d0d0d;
+}
+#p1{
+    display:inline-block;
+    margin: 30px 0 10px 20px;
+    width: 118px;
+    height: auto;
+    border-bottom:1px solid black;
+}
+#p2{
+    display:inline-block;
+    margin: 30px 0 10px 20px;
+    width: 195px;
+    height: auto;
+    border-bottom:1px solid black;
+}
+#p3{
+    display:inline-block;
+    margin: 30px 0 10px 20px;
+    width: 140px;
+    height: auto;
+    border-bottom:1px solid black;
+}
+p{
+    margin: 20px 10px 15px 20px;
+}
+#p4{
+    display:inline-block;
+    margin: 10px 0 10px 20px;
+    width: 100px;
+    height: auto;
+    border-bottom:1px solid #0d0d0d;
+}
+.notes{
+    width: 350px;
+    height: auto;
+    margin: 10px auto 50px auto;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #0d0d0d;
+    overflow:hidden;
+    background: #f2f2f2;
+    font-weight:bold;
+    padding: 10px 0 10px 0;
+    border: 1px solid #0d0d0d;
+}
+.content a{
+    color:black;
+}
+.notes a{
+    color:black;
+}
+#notes-title{
+    width: 60px;
+}
+#notes1{
+    margin-bottom:20px;
+}
+/* Date A Live Encore */
+#encore{
+    width: 200px;
+}
+/* Date A Bullet */
+#bullet{
+    width: 250px;
+}
+/* Wandering Witch: The Journey Of Elaina */
+#elaina{
+    width: 250px;
+}
+/* Otherside Picnic */
+#otherside-picnic{
+    width: 180px;
+}
+/* In Another World With My Smartphone */
+#smartphone{
+    width: 250px;
+}
+/* The Angel Next Door Spoils Me Rotten */
+#angel-next-door{
+    width: 250px;
+}
+/* Death's Daughter And The Ebony Blade */
+#deaths-daughter{
+    width: 240px;
+}
+/* From Toxic Classmate To Girlfriend Goals */
+#toxic-classmate{
+    width: 230px;
+}
+/* Have A Cup Of Coffee After School, In The Fantasy World Café */
+#coffee-after-school{
+    width: 220px;
+}
+/* Goodbye Otherworld, See You Tomorrow */
+#goodbye-otherworld{
+    width: 210px;
+}
