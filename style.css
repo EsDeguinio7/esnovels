@@ -97,22 +97,19 @@ label #btn{
     width: 150px;
 }
 #new{
-    margin-top:-100px;
+    margin-top:-120px;
 }
 #new2{
-    margin-top: ;
+    margin-top: -120px;
 }
 #new3{
     margin-top:-100px;
 }
 #new4{
-    margin-top: -40px;
+    margin-top: -80px;
 }
 #new5{
-    margin-top: -35px;
-}
-#after-my-first{
-    font-size:12px;
+    margin-top: -80px;
 }
 .favourite {
     font-weight:bold;
@@ -162,6 +159,12 @@ label #btn{
 }
 #fav3{
     margin-top:-120px;
+}
+#fav4{
+    margin-top:-120px;
+}
+#fav5{
+    margin-top: -80px;
 }
 .recommend {
     font-weight:bold;
