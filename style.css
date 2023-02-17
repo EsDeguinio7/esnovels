@@ -97,19 +97,19 @@ label #btn{
     width: 150px;
 }
 #new{
-    margin-top:-120px;
-}
-#new2{
-    margin-top: -140px;
-}
-#new3{
     margin-top:-70px;
 }
+#new2{
+    margin-top: -90px;
+}
+#new3{
+    margin-top:-120px;
+}
 #new4{
-    margin-top: -130px;
+    margin-top: -120px;
 }
 #new5{
-    margin-top: -90px;
+    margin-top: -70px;
 }
 .favourite {
     font-weight:bold;
