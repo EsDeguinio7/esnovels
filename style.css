@@ -97,19 +97,19 @@ label #btn{
     width: 150px;
 }
 #new{
-    margin-top:-115px;
-}
-#new2{
-    margin-top: -115px;
-}
-#new3{
     margin-top:-75px;
 }
+#new2{
+    margin-top: -140px;
+}
+#new3{
+    margin-top:-130px;
+}
 #new4{
-    margin-top: -90px;
+    margin-top: -140px;
 }
 #new5{
-    margin-top: -120px;
+    margin-top: -90px;
 }
 /* #new6{
     margin-top:-80px;
