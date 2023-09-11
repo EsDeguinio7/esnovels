@@ -97,21 +97,21 @@ label #btn{
     width: 150px;
 }
 #new{
-    margin-top:-55px;
+    margin-top:-90px;
 }
 #new2{
-    margin-top: -75px;
-}
-#new3{
-    margin-top:-80px;
-}
-#new4{
     margin-top: -110px;
 }
-#new5{
-    margin-top: -40px;
+#new3{
+    margin-top:-70px;
 }
-#new6{
+#new4{
+    margin-top: -140px;
+}
+#new5{
+    margin-top: -110px;
+}
+/* #new6{
     margin-top:-100px;
 }
 #new7{
@@ -126,7 +126,7 @@ label #btn{
 #new10{
     margin-top:-80px;
 }
-/* #new11{
+#new11{
     margin-top: -90px;
 }
 #new12{
