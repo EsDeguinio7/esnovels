@@ -78,7 +78,7 @@ h4{
 }
 .image-content{
     display:block;
-    height: 360px;
+    height: 400px;
     width: 300px;
     margin: 0 auto 0 auto;
     border-radius:3px;
@@ -747,4 +747,8 @@ p{
 /* Redoing My Youth A Second Time, A Cheery Summer With A Lonely Girl */
 #redoing{
     width: 300px;
+}
+/* Naze ka S-kyuu Bijo-tachi no Wadai ni Ore ga Agaru ken */
+#naze{
+    width: 250px;
 }
